@@ -3,13 +3,18 @@ using UnityEngine;
 //Code written by Microsoft Copilot
 public class Saber_Controller : MonoBehaviour
 {
-    void Update()
-    {
-        // Get the mouse position in world coordinates
-        Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        mousePosition.z = 0; // Set Z to 0 since we're working in 2D
+    public Transform player;  // Reference to the player
+    public float speed = 5f;  // Rotation speed
 
-        // Calculate the direction from the object to the mouse
+    private Vector3 offset;
+
+    void Update() {
+    
+        //convert mouse position to world space
+        Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        mousePosition.z = 0;
+
+        // Calculate direction from player to mouse
         Vector3 direction = mousePosition - transform.position;
 
         // Calculate the angle to rotate the object

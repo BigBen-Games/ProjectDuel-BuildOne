@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b70891d7c9d9ebe4792bb3bf68e4e692
+guid: 9f21bc2dd16b7bf4294f47bfcd4fa498
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1417684239356643967
-    second: Hilt_0
+      213: -6849673537499413600
+    second: Lightsaber_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,22 +113,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hilt_0
+      name: Lightsaber_0
       rect:
         serializedVersion: 2
-        x: 931
-        y: 415
-        width: 58
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 937
+        y: 412
+        width: 67
+        height: 623
+      alignment: 9
+      pivot: {x: 0.44064558, y: 0.14679019}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f7ac582fd40aca310800000000000000
-      internalID: 1417684239356643967
+      spriteID: 0a344f1753211f0a0800000000000000
+      internalID: -6849673537499413600
       vertices: []
       indices: 
       edges: []
@@ -136,14 +136,15 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 464a69fa72eecab40b1fc21d63299fe7
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lightsaber_0: -6849673537499413600
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
