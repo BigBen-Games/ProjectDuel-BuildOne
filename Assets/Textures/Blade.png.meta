@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9f21bc2dd16b7bf4294f47bfcd4fa498
+guid: ff6cdb8667c6b9f4ead5048efbe32f12
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6849673537499413600
-    second: Lightsaber_0
+      213: -2678498615165238795
+    second: Blade_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,22 +113,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lightsaber_0
+      name: Blade_0
       rect:
         serializedVersion: 2
-        x: 931
-        y: 415
-        width: 67
-        height: 623
+        x: 935
+        y: 562
+        width: 63
+        height: 476
       alignment: 9
-      pivot: {x: 0.5000009, y: 0.12506187}
+      pivot: {x: 0.4785718, y: 0.05182077}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0a344f1753211f0a0800000000000000
-      internalID: -6849673537499413600
+      spriteID: 5f143b763bf04dad0800000000000000
+      internalID: -2678498615165238795
       vertices: []
       indices: 
       edges: []
@@ -136,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: aff47939a8105254798f793ecfe839c1
+    spriteID: f3eed4d893f5d224cad96eb8b3cc9b52
     internalID: 0
     vertices: []
     indices: 
@@ -144,7 +144,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Lightsaber_0: -6849673537499413600
+      Blade_0: -2678498615165238795
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
