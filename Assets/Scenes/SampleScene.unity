@@ -523,7 +523,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 5.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -802,7 +802,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc1928e7c8212a04faf82f3c7670da4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1230195447}
+  player: {fileID: 1648503067}
   speed: 5
 --- !u!212 &1230195446
 SpriteRenderer:
@@ -1224,7 +1224,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1542637656823703008, guid: 4c9e2299a071b4e468e070639931cef7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1273,7 +1273,7 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.4940788, y: 0.47588947}
     oldSize: {x: 2.28, y: 5.6}
     newSize: {x: 2.28, y: 5.6}
     adaptiveTilingThreshold: 0.5
@@ -1295,7 +1295,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 6
-  jumpForce: 3
+  jumpForce: 4
   maxJumpCount: 2
 --- !u!1 &1818554382
 GameObject:
@@ -1350,7 +1350,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.0518198}
+  m_Offset: {x: 0, y: -0.13216865}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1360,7 +1360,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 19.2, y: 1.5563602}
+  m_Size: {x: 19.2, y: 1.3956625}
   m_EdgeRadius: 0
 --- !u!212 &1818554384
 SpriteRenderer:

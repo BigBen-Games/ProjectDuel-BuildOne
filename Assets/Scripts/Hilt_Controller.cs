@@ -5,8 +5,7 @@ public class Saber_Controller : MonoBehaviour
 {
     public Transform player;  // Reference to the player
     public float speed = 5f;  // Rotation speed
-
-    private Vector3 offset;
+    bool leftClickPushed; // boolean for if left click is pushed
 
     void Update() {
     
@@ -22,5 +21,7 @@ public class Saber_Controller : MonoBehaviour
 
         // Apply the rotation to the object
         transform.rotation = Quaternion.Euler(0, 0, angle);
+        
+        transform.position = player.position;
     }
 }
